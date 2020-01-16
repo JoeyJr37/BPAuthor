@@ -53,10 +53,10 @@ z-index: 99;
 
 /* cover image */
 .cover-page {
-height: 45vh;
-background: linear-gradient(rgba(255,255,255,0.8),
-                         rgba(255,255,255,0.8)), 
-                         url("");
+height: 60vh;
+background: linear-gradient(rgba(255,255,255,0.4),
+                         rgba(255,255,255,0.4)), 
+                         url("personJumping.jpg");
 background-size: 100%;
 background-repeat: no-repeat;
 background-attachment: fixed;
