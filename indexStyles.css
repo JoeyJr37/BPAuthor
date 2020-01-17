@@ -1,19 +1,15 @@
-.button-container {
+.button-container-centered {
 	display: flex;
 	justify-content: center;
 	padding: 10px 0px 15px 0px;	
 	width: 100%;
 }
-.order-button {
-	width: 40%;
-	padding: 10px 5px;
-	border-radius: 15px;
-	background-color: rgb(236, 103, 189);
-	color: white;
-	font-weight: bold;
-	font-size: .85rem;
-	text-align: center;
-	text-decoration: none;
+.button-container-left {
+	display: flex;
+	justify-content: flex-start;
+	padding: 10px 0px 15px 0px;	
+	width: 50%;
+	border: 2px solid red;
 }
 .button:hover {
 	cursor: pointer;
@@ -72,7 +68,7 @@
 .image {
 	width: 100%;
 }
-.see-menu-button {
+.button {
 	width: 50%;
 	padding: 10px 5px;
 	border-radius: 15px;
@@ -83,17 +79,24 @@
 	text-align: center;
 	text-decoration: none;
 }
-.section-cover {
-	height:40vh;
-	background: linear-gradient(rgba(255,255,255,0.8),
-							 rgba(255,255,255,0.8)), 
-							 url("");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.button-outlined {
+	width: 65%;
+	padding: 7px 5px;
+	border-radius: 15px;
+	/*background-color: rgb(236, 103, 189);*/
+	border: 3px solid white;
+	color: white;
+	font-weight: bold;
+	font-size: 0.85rem;
+	text-align: center;
+	text-decoration: none;
 }
+.button-outlined:hover {
+	background-color: rgb(236, 103, 189);
+	color: black;
+	font-weight: bold;
+}
+
 .lower-article {
 	display: flex;
 	flex-direction: column;
@@ -125,6 +128,18 @@
 	font-size: 0.85rem;
 	text-align: center;
 	text-decoration: none;
+}
+.intro-text {
+	font-size: 1.05rem;
+	line-height: 1.45rem;
+	background-color: white;
+	padding: 0.5em;
+	font-style: italic;
+}
+.intro-box {
+	background-color: rgba(76, 76, 76, 0.1);
+	width: 100%;
+	padding: 1em;
 }
 @media only screen and (min-width: 600px) {
 	.button-container {

@@ -26,14 +26,14 @@ color: black;
 	display: flex;
 	padding: 0em 1em;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 }
 .sub-text {
-	color: black;
+	color: white;
 	text-align: center;
-	margin: 75px 1em 0px 1em;
-	font-size: 1.05rem;
-	line-height: 1.20rem;
+	margin: 150px 1em 50px 1em;
+	font-size: 1.5rem;
+	line-height: 1.70rem;
 }
 /* nav-bar styles */
 .nav-bar {
@@ -50,10 +50,10 @@ z-index: 99;
 
 /* cover image */
 .cover-page {
-height: auto;
+height: 100vh;
 background: linear-gradient(rgba(255,255,255,0),
                          rgba(255,255,255,0)), 
-                         url("personJumping.jpg");
+                         url("womanPraying2.webp");
 background-size: 100%;
 background-repeat: no-repeat;
 margin: 0;
@@ -65,7 +65,7 @@ background-color: gray;
 padding: 30px;
 color: white;
 height: 20vh;
-margin: 0;
+margin-top: 80px;
 }
 .footer a {
 text-decoration: none;
@@ -144,7 +144,7 @@ cursor: pointer;
 	  margin: 0;
   }
   .icon span {
-	border: 2px solid black;
+	border: 2px solid white;
 	width: 30px;
 	margin: 5px 2px 3px 0px;
   }
