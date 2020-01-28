@@ -3,9 +3,38 @@
     font-size: 3rem;
     padding: 2em 5em 2em 2em;
     font-style: italic;
+    visibility: hidden;
 }
 .hero {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.tm-site-name {
+    font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .tm-site-name {
+        font-size: 2rem;
+    }
+    .hero-text {
+        visibility: visible;
+        padding: 0;
+        padding-right: 2em;
+        font-size: 2rem;
+    }
+    .footer {
+        padding: 2em;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .hero-text {
+        visibility: visible;
+        padding-right: 2em;
+        font-size: 3rem;
+    }
+    .container-fluid {
+        padding-right: 5em;
+    }
 }
