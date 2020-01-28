@@ -1,0 +1,11 @@
+.hero-text {
+    color: white;
+    font-size: 3rem;
+    padding: 2em 5em 2em 2em;
+    font-style: italic;
+}
+.hero {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
