@@ -100,9 +100,17 @@ p {
     margin-right: -40px;
 }
 
-.tm-about-bg { background-image: url(../img/new-vision-02.jpg); }
+.tm-about-bg { 
+    background-image: url(paperheart.jpg); 
+    background-size: contain;
+    background-position: center;
+    border: 2px solid blue;
+}
 .tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
-.tm-contact-bg { background-image: url(../img/new-vision-04.jpg); }
+.tm-contact-bg { 
+    background-image: url(contact.jpg); 
+    background-size: cover;}
+    /*photo credit: Photo by Melinda Gimpel on Unsplash*/
 
 @media (max-width: 992px) {
     .tm-contact-bg { background-position: 80% top; }
