@@ -101,10 +101,10 @@ p {
 }
 
 .tm-about-bg { 
-    background-image: url(paperheart.jpg); 
+    background-image: url(paperheart.jpg);
+    background-color: white; 
     background-size: contain;
     background-position: center;
-    border: 2px solid blue;
 }
 .tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
 .tm-contact-bg { 
@@ -261,7 +261,7 @@ nav > ul > li { list-style: none; }
 .tm-header-floating {
     position: absolute;
     z-index: 100;
-    top: -30px;
+    top: -50px;
 }
 
 .tm-welcome-row {
