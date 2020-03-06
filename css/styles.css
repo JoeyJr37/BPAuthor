@@ -37,6 +37,9 @@
 .image {
     width: 100%;
 }
+.alignment {
+    margin: 150px 0;
+}
 @media only screen and (min-width: 768px) {
     .tm-site-name {
         font-size: 2rem;
