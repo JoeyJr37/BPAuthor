@@ -105,7 +105,6 @@ p {
     background-size: contain;
     background-position: center;
     border: 2px solid blue;
-    width: 75%;
 }
 .tm-services-bg { background-image: url(../img/new-vision-03.jpg); }
 .tm-contact-bg { 
