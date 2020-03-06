@@ -14,6 +14,11 @@ https://templatemo.com/tm-542-new-vision
     Button: #C99 (Pink)
     
 */
+.tm-header-floating {
+    position: absolute;
+    z-index: 100;
+    top: -70px;
+}
 
 ul, h1, h2, h3, h4, p, figure {
     padding: 0;
@@ -261,7 +266,7 @@ nav > ul > li { list-style: none; }
 .tm-header-floating {
     position: absolute;
     z-index: 100;
-    top: -50px;
+    top: -70px;
 }
 
 .tm-welcome-row {
