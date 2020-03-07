@@ -17,7 +17,8 @@ https://templatemo.com/tm-542-new-vision
 .tm-header-floating {
     position: absolute;
     z-index: 100;
-    top: -70px;
+    top: -100px;
+    margin-left: 0;
 }
 
 ul, h1, h2, h3, h4, p, figure {
@@ -262,12 +263,12 @@ nav > ul > li { list-style: none; }
     font-size: 1.4rem;
     padding: 25px 150px 25px 30px;
 }
-
+/*
 .tm-header-floating {
     position: absolute;
     z-index: 100;
     top: -70px;
-}
+}*/
 
 .tm-welcome-row {
     margin-top: 128px;
