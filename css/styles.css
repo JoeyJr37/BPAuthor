@@ -1,14 +1,12 @@
 .hero-text {
     color: white;
     font-size: 2rem;
-    padding: 2em 0 2em 2em;
+    padding: 2em 2em 2em 2em;
     font-style: italic;
     visibility: hidden;
-    display: flex;
-    flex-direction: row;
 }
 .hero-element {
-    padding: 10px;
+    padding: 5px;
 }
 .hero {
     display: flex;
@@ -43,6 +41,7 @@
 }
 .alignment {
     margin: 100px 0;
+    flex-direction: column;
 }
 @media only screen and (min-width: 768px) {
     .tm-site-name {
@@ -51,7 +50,7 @@
     .hero-text {
         visibility: visible;
         padding: 0;
-        padding-right: 1em;
+        padding-right: 3em;
         font-size: 2rem;
     }
     .footer {
@@ -61,7 +60,17 @@
 @media only screen and (min-width: 1024px) {
     .hero-text {
         visibility: visible;
-        padding-right: 0;
+        padding-right: 3em;
+        font-size: 3rem;
+    }
+    .container-fluid {
+        padding-right: 5em;
+    }
+}
+@media only screen and (min-width: 1240px) {
+    .hero-text {
+        visibility: visible;
+        padding-right: 5em;
         font-size: 3rem;
     }
     .container-fluid {
