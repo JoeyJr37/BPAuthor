@@ -559,9 +559,14 @@ figure.effect-honey:hover h4 i {
 
 .tm-about-icon {
     color: #09F;
-    min-width: 235px;
     display: flex;
     justify-content: center;
+}
+.tm-about-icon-two {
+    color: pink;
+}
+.tm-about-icon-three {
+    min-width: 235px;
 }
 
 @media (max-width: 600px) {

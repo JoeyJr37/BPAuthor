@@ -1,9 +1,14 @@
 .hero-text {
     color: white;
-    font-size: 3rem;
-    padding: 2em 5em 2em 2em;
+    font-size: 2rem;
+    padding: 2em 0 2em 2em;
     font-style: italic;
     visibility: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.hero-element {
+    padding: 10px;
 }
 .hero {
     display: flex;
@@ -56,7 +61,7 @@
 @media only screen and (min-width: 1024px) {
     .hero-text {
         visibility: visible;
-        padding-right: 2em;
+        padding-right: 0;
         font-size: 3rem;
     }
     .container-fluid {
